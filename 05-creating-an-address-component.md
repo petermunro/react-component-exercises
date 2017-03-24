@@ -2,21 +2,19 @@
 
 1. In `App.js`, remove lines 9-15, and line 2 so that it looks like this:
 
-```
-import React, { Component } from 'react';
-import './App.css';
+        import React, { Component } from 'react';
+        import './App.css';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-      </div>
-    );
-  }
-}
+        class App extends Component {
+          render() {
+            return (
+              <div className="App">
+              </div>
+            );
+          }
+        }
 
-export default App;
-```
+        export default App;
 
 2. In the render() method, create a dummy address object we can display with the component we will write:
 

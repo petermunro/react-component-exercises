@@ -1,6 +1,6 @@
 # Using PropTypes
 
-1. Add property validation to your `Address` component.
+1. Add property validation to your `<Address>` component.
 
 2. Ensure that property validation triggers a warning message when:
    1. you omit a property field;
