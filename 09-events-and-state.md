@@ -2,7 +2,12 @@
 
 #### Handling Events
 
-1. Update your `<Contact>` component to handle `click` events. When the event happens, the component should (for the moment) simply display an alert.
+1. Create a `<Contact>` component that can be provided two props:
+
+   - the contact's name; and
+   - the contact's address, to be rendered using your `<Address>` component.
+ 
+2. Update your `<Contact>` component to handle `click` events. When the event happens, the component should (for the moment) simply display an alert.
 
 
 #### Updating State
