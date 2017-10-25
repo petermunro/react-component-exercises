@@ -12,7 +12,7 @@ To get started with React, we will use `create-react-app`.
 
         $ create-react-app hello
         $ cd hello
-        $ yarn start
+        $ npm start
 
 3. This should open a browser on your project.
 
