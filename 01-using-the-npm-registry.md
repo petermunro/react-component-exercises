@@ -1,24 +1,14 @@
-# Using the npm Registry
+# Development Setup
+
+> Conventions: I use the `$` to indicate a shell prompt and commands you type at the shell
 
 
-
-When doing an `npm install`, if you experience errors (eg JSON parsing error), try setting the `npm` registry to the main npmjs.org one.
-
-To get the current `npm` registry:
-
-```
-npm config get registry
-```
-
-To set it:
+Check that you have `node` and `npm` installed:
 
 ```
-npm config set registry https://registry.npmjs.org/
+$ node -v
 ```
 
-And to set it back again:
-
 ```
-npm config set registry https://registry.npmjs.intuit.net/
+$ npm -v
 ```
-
