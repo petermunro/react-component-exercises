@@ -24,6 +24,10 @@ Our `<Contact>` component is nice, but what we'd really like is an 'expandable' 
 
 1. Update your `<Contact>` to handle the two states. Don't worry about the fancy graphics - get it working. :-) One way to do this is to have an `isExpanded` state value that you update when you click it.
 
+### Resources
+
+- A [contacts.json](https://gist.github.com/petermunro/810619d9fb2e03e757f484a57f2fd9fd) you can use
+
 ---
 [[Solution](https://gist.github.com/petermunro/618379aa5be6f0f67639d13fae38b45d)]
 
