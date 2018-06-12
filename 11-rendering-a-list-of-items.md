@@ -3,7 +3,7 @@
 You already have a `<Contact>` component. It renders a contact and can be called like this:
 
     <Contact
-        name="Bruce McKerna
+        name="Bruce McKernan"
         address={{line1: "5 The Villas",
             town: "Stourbridge",
             county: "Devon",
