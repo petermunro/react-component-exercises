@@ -28,6 +28,14 @@ A parent component might want to use your component like this:
 
 1. Have your component call the parent's supplied `onSend` prop when the user presses the "Send" button.
 
+  > The TweetBox is responsible for collecting the data to send,
+    but it doesn't know _how_ to send it (eg via SMS, twitter etc).
+    That's the parent's responsibility.
+
+  >  So it calls up to its parent to do that, passing it the message to send.
+
+  > The `handleSend()` in the parent is the callback that TweetBox will
+    ultimately call to send the message.
 
 ---
 [[Solution](https://gist.github.com/petermunro/1fb53b22cc0de003157f47fcf45ffd08)]
