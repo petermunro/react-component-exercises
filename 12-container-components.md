@@ -18,10 +18,12 @@ Note the differences between the two:
 
 We need a server and some data.
 
-Place your [contacts.json](https://gist.github.com/petermunro/b7103c4b05ca6375e8ac08cd5a8390b1) in the `public/` folder in your `create-react-app` project.
+1. Place your [contacts.json](https://gist.github.com/petermunro/b7103c4b05ca6375e8ac08cd5a8390b1) in the `public/` folder in your `create-react-app` project.
+
+2. Now check that you can access it via http://localhost:3000/contacts.json.
 
 
-#### Creating the Container Component
+## Creating the Container Component
 
 Create the `<ContactListContainer>` class. It'll need to fetch the data, and render a `<ContactList>`.
 
