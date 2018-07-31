@@ -1,6 +1,14 @@
-# Development Setup
 
-> Conventions: I use the `$` to indicate a shell prompt and commands you type at the shell
+# Using the npm Registry
+
+If in an environment where you require a proxy to access the public internet, a
+proxy may need to be configured:
+
+```
+npm config set proxy some-proxy-url
+npm config set http-proxy some-proxy-url
+npm config set https-proxy some-proxy-url
+```
 
 When doing an `npm install`, if you experience errors (eg JSON parsing error), you
 need to be connected to a registry (perhaps via a VPN).

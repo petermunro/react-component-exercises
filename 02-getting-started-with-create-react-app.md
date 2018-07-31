@@ -9,17 +9,14 @@ To get started with React, we will use `create-react-app`.
 
 2. Create a project `my-app`, and start the development server:
 
-        $ create-react-app my-app
-        $ cd my-app
+        $ create-react-app hello
+        $ cd hello
         $ npm start
 
 3. This should open a browser on your project.
 
 
 ## Appendix: Environment Setup
-
-You can perform all exercises up to and including module 7 in Chrome.
-Module 8 needs `create-react-app`.
 
 ### Getting started with create-react-app
 
