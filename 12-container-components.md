@@ -18,47 +18,8 @@ Note the differences between the two:
 
 We need a server and some data.
 
-The data might look like this - here's a sample [contacts.json](https://gist.github.com/petermunro/b7103c4b05ca6375e8ac08cd5a8390b1):
+Place your [contacts.json](https://gist.github.com/petermunro/b7103c4b05ca6375e8ac08cd5a8390b1) in the `public/` folder in your `create-react-app` project.
 
-```
-[
-  {
-    "id": 1,
-    "name": "John",
-    "address": {
-        "line1": "6 Highcross Road",
-        "town": "Upper Norton",
-        "county": "Northshire",
-        "country": "England"
-    },
-    "email": "john@example.com"
-  },
-  ...(more entries)...
-]
-```
-
-#### Setting up the Remote Server
-
-To set up the remote server, use `apimocker`:
-
-- Create a new directory
-- `npm install apimocker -g`
-- Create its config file (say `config.json`):
-
-        {
-          "mockDirectory": "/absolute/path/to/my/directory",
-            "quiet": false,
-            "port": "8060",
-            "webServices": {
-              "api/contacts": {
-                "mockFile": "contacts.json",
-                "verbs": ["get"]
-            }
-          }
-        }
-- Run the server: `apimocker -c config.json`
-- Add the `contacts.json` file containing the JSON for your contact list
-- Check (using say `curl` or a browser) that your server returns the correct response.
 
 #### Creating the Container Component
 
