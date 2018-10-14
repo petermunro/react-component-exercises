@@ -31,7 +31,9 @@ On Linux, install node using your distribution's [package manager](https://nodej
 
 ## 2. Configure npm to use a Registry
 
-Are you behind a corporate firewall, and does your company have an internal registry (sometimes called a binary repository or Artifactory)? If so, try Option 1 [below](#option-1-use-internal-artifactory). Otherwise, use Option 2 [below](#option-2-use-proxies-to-access-npmjs-registry).
+> If you're not behind a corporate firewall, skip this section.
+
+Does your company have an internal registry (sometimes called a binary repository or Artifactory)? If so, try Option 1 [below](#option-1-use-internal-artifactory). Otherwise, use Option 2 [below](#option-2-use-proxies-to-access-npmjs-registry).
 
 ### Option 1: Use internal Artifactory
 
