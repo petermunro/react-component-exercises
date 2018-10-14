@@ -1,9 +1,11 @@
 # Getting Started with create-react-app
 
-To get started with React, we will use `create-react-app`.
+To get started with React, we will use `create-react-app`. It runs on the 'node' platform, whose installer gives you both the `node` and `npm` commands.
+
+If the commands below don't succeed, go through the [prerequisites](01-prerequisites.md) first.
 
 
-1. Install it like this:
+1. If you haven't already done so, install `create-react-app` like this:
 
         $ npm install -g create-react-app
 
@@ -14,33 +16,4 @@ To get started with React, we will use `create-react-app`.
         $ npm start
 
 3. This should open a browser on your project.
-
-
-## Appendix: Environment Setup
-
-### Getting started with create-react-app
-
-#### 1. Install node
-
-**Mac**: I use nvm as we don't need to be root, and we can manage multiple node versions.
-
-	1. Install nvm from https://github.com/creationix/nvm
-	2. Run `nvm install 7.9`
-			// To list available versions: `nvm ls-remote`
-
-**WIN**: Install node from https://nodejs.org/
-
-#### 2. Install create-react-app
-
-	npm install create-react-app -g
-
-#### 3. [Optional extra] Install Yarn
-
-	yarn offers alternate package installation - it's pretty
-	much equivalent to npm. To install, download from
-	https://yarnpkg.com/
-
-#### 4. Run create-react-app
-
-	create-react-app myapp
 
