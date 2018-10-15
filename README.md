@@ -12,3 +12,4 @@ Exercises for React Component Development. No need to clone, just view online.
 ## Authors
 
 * **Peter Munro** - *Initial work* - [petermunro](https://github.com/petermunro)
+* **Eric Curtin** - *Proxy config* - [ericcurtin](https://github.com/ericcurtin)
