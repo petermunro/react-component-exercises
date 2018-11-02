@@ -2,7 +2,7 @@
 
 The plan here is to create a component that enables us to edit an invoice.
 
-1. View the [screen mockup](http://files.petermunro.org/edit-invoice-screen.pdf).
+1. View the [screen mockup](images/edit-invoice-screen.pdf).
 
 2. Build a React component for this screen. It should:
    - display the invoice recipient's name and address at the top - don't worry about editing this here;
